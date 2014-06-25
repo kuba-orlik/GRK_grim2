@@ -1,0 +1,21 @@
+﻿Build started 6/17/2014 1:01:45 PM.
+     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glload\glload.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /Iinclude /Isource /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt source\gll_c.c source\gll_gl_ext.c source\wgll_ext.c
+         wgll_ext.c
+         gll_gl_ext.c
+         gll_c.c
+         Generating Code...
+         C:\Program Files (x86)\VC\bin\CL.exe /c /Iinclude /Isource /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\gll_cpp.cpp
+         gll_cpp.cpp
+       Lib:
+         C:\Program Files (x86)\VC\bin\Lib.exe /OUT:"lib\glloadD.lib" /NOLOGO Debug\gll_c.obj
+         Debug\gll_gl_ext.obj
+         Debug\gll_cpp.obj
+         Debug\wgll_ext.obj
+         glload.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glload\lib\glloadD.lib
+     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glload\glload.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.25

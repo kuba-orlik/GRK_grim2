@@ -1,0 +1,22 @@
+﻿Build started 6/17/2014 1:01:44 PM.
+     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glutil\glutil.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /Iinclude /Isource /I..\glload\include /I..\glm /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\Debug.cpp source\MatrixStack.cpp source\MousePoles.cpp source\Shader.cpp source\WindowPos.cpp
+         WindowPos.cpp
+         Shader.cpp
+         MousePoles.cpp
+         MatrixStack.cpp
+         Debug.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\VC\bin\Lib.exe /OUT:"lib\glutilD.lib" /NOLOGO Debug\Debug.obj
+         Debug\MatrixStack.obj
+         Debug\MousePoles.obj
+         Debug\Shader.obj
+         Debug\WindowPos.obj
+         glutil.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glutil\lib\glutilD.lib
+     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\glsdk\glutil\glutil.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.27
