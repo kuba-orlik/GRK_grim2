@@ -157,6 +157,7 @@ bool objects_are_loaded(){
 }*/
 
 void setLight(){
+	glUseProgram(UniformColorTint.theProgram);
 	glUniform1f(moon_glow_ratio_uniform, moon_glow_ratio_value);	
 	glUniform1f(moon_light_intensity_uniform, moon_light_intensity_value);	
 	glUniform1f(frontlight_ratio_uniform, frontlight_ratio_value);	
@@ -174,13 +175,11 @@ void DrawHill(){
 
 	modelMatrix.Scale(glm::vec3(100.0f, 100.0f, 100.0f));
 
-	glUseProgram(UniformColorTint.theProgram);
 	setLight();
-	glUniformMatrix4fv(UniformColor.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
-	glUniform4f(UniformColor.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
+	glUniformMatrix4fv(UniformColorTint.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
+	glUniform4f(UniformColorTint.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
 	use_texture(noise_texture);
 	hill_mesh->Render();
-	glUseProgram(0);
 }
 
 
@@ -189,19 +188,17 @@ void DrawLeaves(glutil::MatrixStack &modelMatrix){
 	glutil::PushStack push(modelMatrix);
 
 	setLight();
-	glUseProgram(UniformColorTint.theProgram);
 	glUniform1f(backlight_ratio_uniform, backlight_ratio_value);	
 	//glUniform1f(moon_light_intensity_uniform, 0);	
 	glUniform1f(frontlight_ratio_uniform, 0.01f);	
 	glUniform1f(moon_light_intensity_uniform, 1);
-	glUniformMatrix4fv(UniformColor.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
-	glUniform4f(UniformColor.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
+	glUniformMatrix4fv(UniformColorTint.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
+	glUniform4f(UniformColorTint.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
 	use_texture(leaves_texture);
 	leaves_mesh->Render();
 	glUniform1f(backlight_ratio_uniform, 0.0f);
 	glUniform1f(moon_light_intensity_uniform, moon_light_intensity_value);
 	glUniform1f(frontlight_ratio_uniform, 1.0f);	
-	glUseProgram(0);
 }
 
 void DrawCrown(glutil::MatrixStack &modelMatrix){
@@ -209,12 +206,10 @@ void DrawCrown(glutil::MatrixStack &modelMatrix){
 	glutil::PushStack push(modelMatrix);
 
 	setLight();
-	glUseProgram(UniformColorTint.theProgram);	
 	glUniformMatrix4fv(UniformColorTint.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
 	glUniform1f(moon_light_intensity_uniform, 1.5);
 	use_texture(noise_texture);
 	tree_crown_mesh->Render();
-	glUseProgram(0);
 }
 
 void DrawTrunk(glutil::MatrixStack &modelMatrix){
@@ -222,7 +217,6 @@ void DrawTrunk(glutil::MatrixStack &modelMatrix){
 	glutil::PushStack push(modelMatrix);
 
 	setLight();
-	glUseProgram(UniformColorTint.theProgram);	
 	modelMatrix.Translate(glm::vec3(0.0, -0.45, 0.0));
 	//glUniform1f(moon_light_intensity_uniform, 2);
 	glUniform1f(moon_glow_ratio_uniform, 0.5);
@@ -232,7 +226,6 @@ void DrawTrunk(glutil::MatrixStack &modelMatrix){
 	tree_trunk_mesh->Render();
 	//modelMatrix.Pop();
 	glUniform1f(moon_glow_ratio_uniform, moon_glow_ratio_value);
-	glUseProgram(0);
 }
 
 
@@ -321,8 +314,8 @@ void DrawFallingLeaves(){
 		modelMatrix.RotateX(current_leaf->rotation.x);
 		modelMatrix.RotateY(current_leaf->rotation.y);
 		modelMatrix.RotateZ(current_leaf->rotation.z);		
-		glUniformMatrix4fv(UniformColor.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
-		glUniform4f(UniformColor.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
+		glUniformMatrix4fv(UniformColorTint.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
+		glUniform4f(UniformColorTint.baseColorUnif, 0.302f, 0.416f, 0.0589f, 1.0f);
 		use_texture(falling_leaf_texture);
 		falling_leaf_mesh->Render();
 	}
@@ -338,7 +331,7 @@ void DrawDot(){
 	setLight();
 	glUniform1f(moon_glow_ratio_uniform, 7);	
 	modelMatrix.Translate(the_dot.position);
-	glUniformMatrix4fv(UniformColor.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
+	glUniformMatrix4fv(UniformColorTint.modelToWorldMatrixUnif, 1, GL_FALSE, glm::value_ptr(modelMatrix.Top()));
 	use_texture(light_dot_texture);
 	falling_leaf_mesh->Render();
 }
@@ -376,12 +369,12 @@ void DrawWorld(const glm::vec3 &camPos){
 
 	glUseProgram(UniformColorTint.theProgram);
 	glUniformMatrix4fv(UniformColorTint.worldToCameraMatrixUnif, 1, GL_FALSE, glm::value_ptr(camMatrix.Top()));
-	glUseProgram(0);
 
 	DrawHill();
 	DrawTree();
 	DrawFallingLeaves();
 	DrawDot();
+	glUseProgram(0);
 }
 
 void objects_draw(){

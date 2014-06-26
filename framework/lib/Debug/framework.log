@@ -1,16 +1,20 @@
-﻿Build started 6/23/2014 6:11:25 PM.
-     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\framework\framework.vcxproj" on node 2 (Build target(s)).
+﻿Build started 6/26/2014 11:05:23 AM.
+     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\framework\framework.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\VC\bin\CL.exe /c /I. /I..\glsdk\glload\include /I..\glsdk\glimg\include /I..\glsdk\glm /I..\glsdk\glutil\include /I..\glsdk\glmesh\include /I..\glsdk\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D TIXML_USE_STL /D FREEGLUT_STATIC /D WIN32 /D _LIB /D FREEGLUT_LIB_PRAGMAS=0 /D DEBUG /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"lib\Debug\\" /Fd"lib\frameworkD.pdb" /Gd /TP /analyze- /errorReport:prompt Mesh.cpp
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I. /I..\glsdk\glload\include /I..\glsdk\glimg\include /I..\glsdk\glm /I..\glsdk\glutil\include /I..\glsdk\glmesh\include /I..\glsdk\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D TIXML_USE_STL /D FREEGLUT_STATIC /D WIN32 /D _LIB /D FREEGLUT_LIB_PRAGMAS=0 /D DEBUG /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"lib\Debug\\" /Fd"lib\frameworkD.pdb" /Gd /TP /analyze- /errorReport:prompt framework.cpp Mesh.cpp Scene.cpp Timer.cpp
+         Timer.cpp
+         Scene.cpp
          Mesh.cpp
+         framework.cpp
+         Generating Code...
        Lib:
          C:\Program Files (x86)\VC\bin\Lib.exe /OUT:"lib\frameworkD.lib" /NOLOGO lib\Debug\framework.obj
          lib\Debug\Mesh.obj
          lib\Debug\Scene.obj
          lib\Debug\Timer.obj
-         framework.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\framework\lib\frameworkD.lib
-     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\framework\framework.vcxproj" (Build target(s)).
+         framework.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\framework\lib\frameworkD.lib
+     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\framework\framework.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.49
+Time Elapsed 00:00:15.90

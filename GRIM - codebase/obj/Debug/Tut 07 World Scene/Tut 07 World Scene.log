@@ -1,28 +1,28 @@
-﻿Build started 6/25/2014 3:16:58 PM.
-     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\GRIM - codebase\Tut 07 World Scene.vcxproj" on node 2 (Build target(s)).
+﻿Build started 6/26/2014 11:35:09 AM.
+     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\Tut 07 World Scene.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\VC\bin\CL.exe /c /I..\framework /I..\glsdk\glload\include /I..\glsdk\glimg\include /I..\glsdk\glm /I..\glsdk\glutil\include /I..\glsdk\glmesh\include /I..\glsdk\freeglut\include /I..\libpng\include /I..\zlib\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D TIXML_USE_STL /D FREEGLUT_STATIC /D WIN32 /D _LIB /D FREEGLUT_LIB_PRAGMAS=0 /D DEBUG /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\Tut 07 World Scene\\" /Fd".\Tut 07 World SceneD.pdb" /Gd /TP /analyze- /errorReport:prompt "World Scene.cpp"
          World Scene.cpp
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\textures.h(71): warning C4101: 'height' : unreferenced local variable
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\textures.h(71): warning C4101: 'width' : unreferenced local variable
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(71): warning C4305: '=' : truncation from 'double' to 'float'
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(109): warning C4101: 'unit' : unreferenced local variable
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(241): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(248): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(259): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(264): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(276): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\objects.h(285): warning C4305: '=' : truncation from 'double' to 'float'
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\world scene.cpp(60): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\world scene.cpp(76): warning C4551: function call missing argument list
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\world scene.cpp(77): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>c:\users\kuba\dropbox\desktop\grk_grim\grim - codebase\world scene.cpp(121): warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\textures.h(71): warning C4101: 'height' : unreferenced local variable
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\textures.h(71): warning C4101: 'width' : unreferenced local variable
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(71): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(109): warning C4101: 'unit' : unreferenced local variable
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(234): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(241): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(252): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(257): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(269): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\objects.h(278): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\world scene.cpp(60): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\world scene.cpp(76): warning C4551: function call missing argument list
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\world scene.cpp(77): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\kuba\dropbox\desktop\grk_grim2\grim - codebase\world scene.cpp(121): warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
        Link:
          C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Tut 07 World SceneD.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\glsdk\glload\lib /LIBPATH:..\glsdk\glimg\lib /LIBPATH:..\glsdk\glutil\lib /LIBPATH:..\glsdk\glmesh\lib /LIBPATH:..\glsdk\freeglut\lib /LIBPATH:..\libpng\lib /LIBPATH:..\zlib\lib glloadD.lib glimgD.lib glutilD.lib glmeshD.lib freeglutD.lib glu32.lib opengl32.lib gdi32.lib winmm.lib user32.lib libpng.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Tut 07 World SceneD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Tut 07 World SceneD.lib" /MACHINE:X86 "obj\Debug\Tut 07 World Scene\World Scene.obj"
-         C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\framework\lib\frameworkD.lib
-         Tut 07 World Scene.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\GRIM - codebase\.\Tut 07 World SceneD.exe
-     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_Grim\GRIM - codebase\Tut 07 World Scene.vcxproj" (Build target(s)).
+         C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\framework\lib\frameworkD.lib
+         Tut 07 World Scene.vcxproj -> C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\.\Tut 07 World SceneD.exe
+     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\Tut 07 World Scene.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.82
+Time Elapsed 00:00:04.54
