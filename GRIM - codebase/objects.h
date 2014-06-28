@@ -165,7 +165,7 @@ void setLight(){
 	glm::vec3 camera_position = ResolveCamPosition();
 	glUniform3f(observer_location_uniform, camera_position.x, camera_position.y, camera_position.z);	
 	glUniform1f(the_dot_light_intensity_uniform, the_dot.intensity);	
-	glUniform1i(phong_parameter_uniform, 14);
+	glUniform1i(phong_parameter_uniform, 100);
 }
 
 
@@ -384,7 +384,7 @@ void objects_draw(){
 	//Draw the trees
 	//DrawForest(modelMatrix);
 	DrawSky();
-	DrawWorld(camPos);
+		DrawWorld(camPos);
 }
 
 

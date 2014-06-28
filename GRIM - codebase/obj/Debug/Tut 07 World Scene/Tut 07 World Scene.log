@@ -1,4 +1,4 @@
-﻿Build started 6/26/2014 11:35:09 AM.
+﻿Build started 6/26/2014 1:37:19 PM.
      1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\Tut 07 World Scene.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\VC\bin\CL.exe /c /I..\framework /I..\glsdk\glload\include /I..\glsdk\glimg\include /I..\glsdk\glm /I..\glsdk\glutil\include /I..\glsdk\glmesh\include /I..\glsdk\freeglut\include /I..\libpng\include /I..\zlib\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D TIXML_USE_STL /D FREEGLUT_STATIC /D WIN32 /D _LIB /D FREEGLUT_LIB_PRAGMAS=0 /D DEBUG /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\Tut 07 World Scene\\" /Fd".\Tut 07 World SceneD.pdb" /Gd /TP /analyze- /errorReport:prompt "World Scene.cpp"
@@ -25,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.54
+Time Elapsed 00:00:03.45
