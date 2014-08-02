@@ -1,0 +1,11 @@
+﻿Build started 8/2/2014 11:54:03 AM.
+     1>Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\Tut 07 World Scene.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Tut 07 World Scene.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\glsdk\glload\lib /LIBPATH:..\glsdk\glimg\lib /LIBPATH:..\glsdk\glutil\lib /LIBPATH:..\glsdk\glmesh\lib /LIBPATH:..\glsdk\freeglut\lib glload.lib glimg.lib glutil.lib glmesh.lib freeglut.lib glu32.lib opengl32.lib gdi32.lib winmm.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Tut 07 World Scene.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Tut 07 World Scene.lib" /MACHINE:X86 /SAFESEH "obj\Release\Tut 07 World Scene\GRIM.obj"
+         C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\framework\lib\frameworkD.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'glload.lib'
+     1>Done Building Project "C:\Users\Kuba\Dropbox\Desktop\GRK_grim2\GRIM - codebase\Tut 07 World Scene.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22

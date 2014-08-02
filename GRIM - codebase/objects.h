@@ -114,13 +114,13 @@ void DrawSky(){
 	}*/
 	double window_proportion = (double)window_height/(double)window_width;
 	double sky_proportion = (double)sky_height/(double)sky_width;
-	printf("sky_proportion: %f, window_proportion: %f", sky_proportion, window_proportion);
+//	printf("sky_proportion: %f, window_proportion: %f", sky_proportion, window_proportion);
 	if(window_proportion<sky_proportion){
 		scale_y=sky_proportion/window_proportion;
 	}else{
 		scale_x=window_proportion/sky_proportion;
 	}
-	printf("scale_x: %f\n", scale_x);
+//	printf("scale_x: %f\n", scale_x);
 	modelMatrix.Scale(glm::vec3(scale_x, scale_y, 1.0f));
 	float scale_margin = 1.05f;
 	modelMatrix.Scale(glm::vec3(scale_margin, scale_margin, 1.0));

@@ -14,6 +14,7 @@
     <ProjectGuid>{47998C1C-282B-2C47-8E9D-681341655CFB}</ProjectGuid>
     <RootNamespace>Tut 07 World Scene</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>GRK GRIM</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -41,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\</OutDir>
     <IntDir>obj\Debug\Tut 07 World Scene\</IntDir>
-    <TargetName>Tut 07 World SceneD</TargetName>
+    <TargetName>GRK GRIM - Kuba Orlik i Pola Mi</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
@@ -75,7 +76,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>glloadD.lib;glimgD.lib;glutilD.lib;glmeshD.lib;freeglutD.lib;glu32.lib;opengl32.lib;gdi32.lib;winmm.lib;user32.lib;libpng.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)Tut 07 World SceneD.exe</OutputFile>
+      <OutputFile>$(OutDir)GRK GRIM - by Jan Kuba Orlik &amp; Pola Mikolajczak.exe</OutputFile>
       <AdditionalLibraryDirectories>..\glsdk\glload\lib;..\glsdk\glimg\lib;..\glsdk\glutil\lib;..\glsdk\glmesh\lib;..\glsdk\freeglut\lib;..\libpng\lib;..\zlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
@@ -112,7 +113,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="World Scene.cpp">
+    <ClCompile Include="GRIM.cpp">
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
